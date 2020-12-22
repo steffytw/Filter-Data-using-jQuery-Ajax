@@ -1,0 +1,60 @@
+/*-------------------Roboto font------------------------------------*/
+@font-face {
+	src: url(fonts/roboto/Roboto-Regular.ttf);
+	font-family: 'Roboto';
+}
+.nav-bg{
+	background-color: #003466;
+}
+.toggle-bg{
+	background-color: #275886;
+	color: white;
+	height: 10px;
+}
+.toogle-navigation{
+	background-color: #275886;
+	padding: 5px 5px 5px 5px;
+	margin-left: 10px;
+	margin-top: 10px !important;
+}
+.input-group-sm{
+	margin-left: 54px;
+    margin-top: -13px;
+}
+.bell-bg{
+	color:white;
+}
+.patient-info{
+	margin-left: 100px;
+}
+.fa-caret-down{
+	background-color: white;
+	color: #808080
+}
+.caret-bg{
+	background-color: white !important;
+	border-left: 0px;
+	border-right: 0px;
+}
+input#search{
+	border-right: 0px;
+}
+.patient-info{
+	max-height: 190px;
+	min-width: 324px !important;
+	overflow-y: auto;
+}
+
+li{
+	padding-left: 5px !important;
+}
+.patientInfo-bg {
+    color: #b1adad !important;
+    margin-left: 39px !important;
+	font-size: 12px !important;
+	margin-top: -13px !important;
+}
+.postData {
+    float: right !important;
+    margin-top: -26px !important;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Patient details</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- style -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- reset css -->
+    <!-- <link rel="stylesheet" type="text/css" href="reset.css"> -->
+    <!-- fontawesome -->
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+    <!--custom bootstrap -->
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+    <!-- Jquery -->
+    <script type="text/javascript" src="jQuery/jquery-3.5.1.min.js"></script>
+    <!-- search script-->
+    <script type="text/javascript" src="search.js"></script>
+  </head>
+	<body>
+    <div class="container-fluid container-sm|md|lg|xl">
+      <div class="row">
+        <nav class="navbar navbar-expand-sm  nav-bg col-lg-12 col-sm-12 col-md-12">
+          <a href="#" class="toogle-navigation">
+                <i class="fa fa-bars toggle-bg" aria-hidden="true"></i>
+          </a>
+          <div class="input-group input-group-sm dropdown col-lg-3 col-xl-3 col-md-3" id="dropdowninfo">          
+            <input type="text" class="form-control" name="search" id="search" placeholder="Search Patient,PID etc" autocomplete="off">
+            <span class="input-group-addon caret-bg" id="dropdownMenu" data-toggle="dropdown"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+            <span class="input-group-addon"><i class="fa fa-search" aria-hidden="true"></i></span>
+            <ul id="patientDetails" class="dropdown-menu patient-info">
+              
+          </ul>
+          </div>
+          <div class="postData">
+            <input type="text" id="Patient" placeholder="Enter Your Name" autocomplete="off">
+            <input type="number" id="PID" placeholder="Enter Your id" autocomplete="off">
+            <input type="date" id="DOB" placeholder="Enter Your DOB" autocomplete="off">
+            
+            <button type="button" id="postDataVal">Post</button>
+          </div>
+        </nav>
+      </div>
+      <p id="demo"></p>
+    </div>
+ 
+  <!-- bootstrap script-->
+  <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+ 
+  </body>
+   
+</html>
+ 
